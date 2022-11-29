@@ -1,0 +1,12 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if a>b and a>c and a>d:
+    print("big is a:",a)
+elif b>a and b>c and b>d:
+    print("big is b:",b)
+elif c>a and c>b and c>d:
+    print("big is c:",c)
+else:
+    print("big is d:",d)
